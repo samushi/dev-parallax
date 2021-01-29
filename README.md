@@ -10,16 +10,16 @@ DevParallax is a jQuery plugin which can give the parallax effect to the content
 
 ```javascript
 if( $.fn.parallax ) {
-				$( '[data-background]' ).each(function() {
-					$( this ).parallax( $.extend( true, {
-						lazyLoad: true, 
-						mode: 'parallax', // none
-						activeClass: 'has-bg', 
-						fixedBgClass: 'bg-fixed', 
-						parallaxClass: 'bg-fixed', 
-						speedFactor: 0.3
-					}, $( this ).data() ) );
-				});
+	$( '[data-background]' ).each(function() {
+	   $( this ).parallax( $.extend( true, {
+		lazyLoad: true, 
+		mode: 'parallax', // none
+		activeClass: 'has-bg', 
+		fixedBgClass: 'bg-fixed', 
+		parallaxClass: 'bg-fixed', 
+		speedFactor: 0.3
+	   }, $( this ).data() ) );
+	});
 }
 
 ```
